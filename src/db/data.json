@@ -11,19 +11,22 @@
             "id": 2,
             "fullName": "Смирнова Анна Сергеевна",
             "department": 1,
-            "role": 1
+            "role": 1,
+            "isHead": false
         },
         {
             "id": 3,
             "fullName": "Петров Петр Петрович",
             "department": 1,
-            "role": 2
+            "role": 2,
+            "isHead": false
         },
         {
             "id": 4,
             "fullName": "Сидорова Мария Ивановна",
             "department": 1,
-            "role": 2
+            "role": 2,
+            "isHead": false
         },
         {
             "id": 5,
@@ -36,31 +39,36 @@
             "id": 6,
             "fullName": "Васильев Алексей Игоревич",
             "department": 2,
-            "role": 1
+            "role": 1,
+            "isHead": false
         },
         {
             "id": 7,
             "fullName": "Попова Елена Дмитриевна",
             "department": 2,
-            "role": 2
+            "role": 2,
+            "isHead": false
         },
         {
             "id": 8,
             "fullName": "Крылова Наталья Петровна",
             "department": 2,
-            "role": 2
+            "role": 2,
+            "isHead": false
         },
         {
             "id": 9,
             "fullName": "Семенов Олег Владимирович",
             "department": 1,
-            "role": 1
+            "role": 1,
+            "isHead": false
         },
         {
             "id": 10,
             "fullName": "Федорова Ольга Викторовна",
             "department": 2,
-            "role": 2
+            "role": 2,
+            "isHead": false
         }
     ]
 }

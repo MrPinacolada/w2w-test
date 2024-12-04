@@ -1,9 +1,9 @@
-enum Department {
+export enum Department {
   Cardiology = 1,
   Surgery = 2,
 }
 
-enum Role {
+export enum Role {
   Doctor = 1,
   Nurse = 2,
 }
@@ -13,7 +13,7 @@ export const departmentTranslations: Record<Department, string> = {
   [Department.Surgery]: "Хирургическое",
 };
 
-export const doleTranslations: Record<Role, string> = {
+export const roleTranslations: Record<Role, string> = {
   [Role.Doctor]: "Врач",
   [Role.Nurse]: "Медсестра",
 };
