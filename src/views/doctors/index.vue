@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import WorkersTable from "@/components/workersTable.vue";
+import WorkersTable from "@/components/table/workersTable.vue";
 import db from "@/db/data.json";
 import { Role } from "@/helpers/tableEnums";
 import type { Worker } from "@/types/workers";
