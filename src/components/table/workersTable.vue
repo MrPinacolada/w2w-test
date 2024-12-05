@@ -87,7 +87,7 @@ const props = defineProps<{
 
 const tableItems = ref<TranslatedWorker[] | null>(null);
 const editingWorker = ref<TranslatedWorker | null>(null);
-const popoverRef = ref<HTMLElement | null>(null);
+const popoverRef = ref();
 
 const translateWorkers = () => {
   tableItems.value = props.data.map((item) => {
